@@ -1,0 +1,26 @@
+{
+  "name": "testBot",
+  "scripts": {
+  },
+  "env": {
+    "FACEBOOK_PAGE_ACCESS_TOKEN": {
+      "required": true
+    },
+    "FACEBOOK_PAGE_VERIFY_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
